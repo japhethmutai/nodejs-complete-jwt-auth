@@ -1,1 +1,1 @@
-20220709	21:16:10	ed8f4c70-eb23-4118-8db1-f1f470c71f80	TypeError: fsPromises.readFil is not a function
+20220711	09:57:32	d7e8d42a-f225-43a6-85c9-721399c55dbb	Error: Access blocked by CORS

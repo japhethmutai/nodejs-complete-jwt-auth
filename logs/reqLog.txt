@@ -1,5 +1,23 @@
-20220709	21:14:21	62bb2d9a-400c-484a-8c8a-9fe9bfce03d4	/	GET
-20220709	21:14:24	0e194b5f-7511-4e7c-9d1c-d2a037a2c21f	/css/style.css	GET
-20220709	21:16:10	a8b6762b-328f-4489-908b-beff45b29392	/	GET
-20220709	21:17:08	4e3911f5-4a8b-4ced-a36a-3373fcadb97c	/	GET
-20220709	21:17:08	897a1bba-4768-4948-b185-7c7038f51176	/css/style.css	GET
+20220711	09:19:44	0361473e-0153-4bcb-8781-7d23e34d7fdb	GET	undefined	/index
+20220711	09:19:44	6ce603f5-d50c-4203-a4db-e939f982296b	GET	undefined	/css/style.css
+20220711	09:23:24	31dc36f3-5074-4e3d-b53b-338ea7e954cb	GET	undefined	/index
+20220711	09:23:25	8b600615-ebb3-4f01-848a-73fdf666c920	GET	undefined	/css/style.css
+20220711	09:27:19	8e9c9f98-8689-40e6-83bf-b4a2330ee835	GET	https://www.google.com	/
+20220711	09:35:12	76353d6b-7fec-4c0d-82c2-1dee88b5c094	GET	https://www.google.com	/
+20220711	09:36:18	70a5078e-bf4d-480c-a1a7-8af2aa1979e0	GET	https://www.google.com	/
+20220711	09:36:39	f63f7eb5-e219-4dc1-8449-fd2cf5321daf	GET	https://www.google.com	/
+20220711	09:37:05	2c40dbb2-e822-4369-9d6e-83cf0a36abfe	GET	https://www.google.com	/
+20220711	09:37:32	00cc5a30-d7b8-4b2c-b9b0-60b52f9ed859	GET	https://www.google.com	/
+20220711	09:38:05	0fb132ae-8056-45da-bdfd-abd606a10b80	GET	https://www.google.com	/
+20220711	09:38:14	935e71bd-3843-4261-b562-a66653891aaa	GET	https://www.google.com	/
+20220711	09:38:25	3d105d22-cadb-40ba-9018-41eb2a53753f	GET	https://www.google.com	/
+20220711	09:44:56	833e81a7-400e-488b-bcf2-59541742b51a	GET	undefined	/index
+20220711	09:45:54	51a2d01f-e2a9-4496-91c7-50dd3f0e0204	GET	undefined	/index
+20220711	09:45:56	97617437-d30b-4307-84f5-9d0cb33939a7	GET	undefined	/css/style.css
+20220711	09:57:32	149100f4-182f-43a4-b280-959a3ba18612	GET	undefined	/index
+20220711	09:58:37	2e4feac5-cd04-46a2-9c6d-3670faddd336	GET	undefined	/index
+20220711	09:58:37	053b3753-f85c-4ddb-a832-20e6576d2d56	GET	undefined	/css/style.css
+20220711	10:00:52	43729b67-98fb-4fc4-8119-0d82b5ec0c26	GET	undefined	/dev
+20220711	10:00:52	2c854aa8-214e-46bc-99dd-297db354f54a	GET	undefined	/css/style.css
+20220711	10:04:48	0191842a-0e61-4b8d-8fd8-3f9f4f8c1ac6	GET	undefined	/dev
+20220711	10:04:48	bcf35bc8-eb52-4f0c-b156-058d0f3eb612	GET	undefined	/css/style.css
