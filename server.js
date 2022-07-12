@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -8,7 +9,12 @@ const errorhandler = require('./middleware/errorhandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
+const mongoose = require('mongoose');
+const connectDB = require('./config/dbConn');
 const PORT = process.env.PORT || 5000;
+
+// Connect to mongoDB
+connectDB();
 
 // custom middleware logger
 app.use(logger);
@@ -56,4 +62,7 @@ app.use(errorhandler)
 
 // node fn for creating random crypto: require('crypto').randomBytes(64).toString('hex')
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+mongoose.connection.once('open', () => {
+    console.log('Connected to MongoDB');
+    app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+});
