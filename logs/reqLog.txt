@@ -66,3 +66,17 @@
 20220711	11:27:39	74b589e3-7873-4910-8ed6-4ee447a8c7ad	GET	undefined	/employees/1
 20220711	20:39:18	a67daa53-dcdb-4e04-956e-9df6cd36fced	GET	undefined	/css/style.css
 20220711	20:39:19	d4d0b9af-f1d1-4223-976a-c0c9038fbea6	GET	undefined	/favicon.ico
+20220711	21:57:10	87106b96-4631-40ad-801d-28bd6edd5851	GET	undefined	/employees/1
+20220711	21:57:24	d36aa2e0-5ad4-4940-bcec-b3012830c6d9	POST	undefined	/employees
+20220711	21:57:37	10558a22-c8f7-4022-bcde-2f2c3a25295d	GET	undefined	/employees
+20220711	21:57:54	665b539d-31a6-4189-8c1b-6820bd1b6d25	DELETE	undefined	/employees
+20220711	21:58:42	3f6164cc-8262-4366-b7a4-67dad2bd32ac	PUT	undefined	/employees
+20220711	23:05:14	a4bc033f-95e6-41a7-b4be-1b4ebf71db37	POST	undefined	/register
+20220711	23:08:07	e6aac5b6-7d19-4b21-85ab-1de45b98d4ca	POST	undefined	/register
+20220711	23:08:58	415ad95f-3cd6-48a4-98c4-7c3aa358b0f7	POST	undefined	/register
+20220711	23:18:43	5b5ceddb-5407-4735-930b-0252caba14c9	POST	undefined	/auth
+20220711	23:18:49	ba5b573e-1cb5-4754-91f7-897645a1656a	POST	undefined	/auth
+20220711	23:19:19	45d1be6c-1202-47fe-9b19-7ab6afd75a5b	POST	undefined	/auth
+20220711	23:19:26	73ee6f81-8a09-453e-8e2e-d3c2bc45a4a0	POST	undefined	/auth
+20220711	23:19:32	2325b6ef-37ae-4ff7-afbc-03a722a3e0b2	POST	undefined	/auth
+20220711	23:19:59	8a2f223e-3cf3-4466-ba75-f0096da1a1ff	POST	undefined	/register

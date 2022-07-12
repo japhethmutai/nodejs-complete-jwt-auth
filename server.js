@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
+const corsOptions = require('./config/corsOptions');
 const { logger } = require('./middleware/logEvents');
 const errorhandler = require('./middleware/errorhandler');
 const PORT = process.env.PORT || 5000;
@@ -9,27 +10,10 @@ const PORT = process.env.PORT || 5000;
 // custom middleware logger
 app.use(logger);
 
-// Cross Origin Resource Sharing
-const whitelist = [
-    'https://www.google.com', 
-    'http://127.0.0.1:3000', 
-    'http://127.0.0.1:5000'
-]
-const corsOptions = {
-    origin: (origin, callback) => {
-        if (whitelist.indexOf(origin) !== -1 || !origin) {
-            callback(null, true)
-        } else {
-            callback(new Error('Access blocked by CORS'));
-        }
-    },
-    OptionsSuccessStatus: 200,
-}
+
 app.use(cors(corsOptions));
 
-// built-in middleware to handle urlencoded data
-// in other words, form data:
-// 'content-type: application/x-www-form-urlencoded'
+// built-in middleware to handle urlencoded data form data
 app.use(express.urlencoded({ extended: false }));
 
 // built-in middleware for json
@@ -37,12 +21,12 @@ app.use(express.json());
 
 // server static files
 app.use('/', express.static(path.join(__dirname, '/public')));
-app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
 // routes 
-app.use('^/', require('./routes/root'));
-app.use('/subdir', require('./routes/subdir'))
-app.use('/employees', require('./routes/api/employees'))
+app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
+app.use('/auth', require('./routes/auth'));
+app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res) => {
     res.status(404);
@@ -56,5 +40,7 @@ app.all('*', (req, res) => {
 });
 
 app.use(errorhandler)
+
+// node fn for creating random crypto: require('crypto').randomBytes(64).toString('hex')
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
