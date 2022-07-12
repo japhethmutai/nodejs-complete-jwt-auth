@@ -1,2 +1,4 @@
 20220711	09:57:32	d7e8d42a-f225-43a6-85c9-721399c55dbb	Error: Access blocked by CORS
 20220711	11:02:14	0f886734-8d71-4336-a431-4d488004084d	Error: ENOENT: no such file or directory, stat 'D:\Projects\ReactProjects\nodejs-complete-jwt-auth\routes\views\index.html'
+20220712	12:39:49	846c6e3c-385f-48bd-9cac-c18aaff99dfd	ReferenceError: founduser is not defined
+20220712	12:43:47	afd562f0-b0bb-4648-bbad-05e6a005e858	TypeError: Cannot read property 'username' of undefined
